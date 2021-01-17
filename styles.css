@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,300&display=swap');
 
 :root {
-    --primary-color: #7C3AED;
+    --primary-color: #14b351a6;
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
 }
@@ -124,6 +124,7 @@ hr {
 
 .section {
     padding: 2rem;
+    
 }
 
 .section h1 {
@@ -138,7 +139,7 @@ hr {
 /** footers **/
 
 .footer {
-    background-color: var(--primary-color);
+    background-color: rgb(8, 150, 8);
     padding: 4rem 1rem;
     text-align: center;
     color: white;
@@ -160,10 +161,37 @@ hr {
 
 /** projects **/
 .showcase-list {
-    padding: 2rem;
+    padding: 1rem;
+
+}
+
+.project-img{
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;
 }
 
 /** blogs **/
 .showcase-blog {
     padding-bottom: 6rem;
 }
+
+.blogs-img {
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;
+ }
+/** technologies **/
+.technologies-img {
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+
+
+ 
+
